@@ -1,0 +1,9 @@
+version '3.8'
+services:
+
+  lwan:
+    image: productionwentdown/lwan
+    ports: 
+      - "8080"
+    networks:
+      - 
